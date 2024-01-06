@@ -25,14 +25,22 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Supragya Gandotra",
-  title: "Web Designer & Content Creator",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
+  title: (
+    <div>
+      Full Stack Developer <br />
+      AI/ML Enthusiast <br />
+      Competitive Programmer <br />
+      Open Source Enthusiast <br />
+      Designer 
+    </div>
+  ),
+  email: "ssg.gandotra@gmail.com",
+  gitHub: "Supragya1",
+  instagram: "Supragya_1",
+  linkedIn: "supragya-gandotra",
   medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  twitter: "",
+  youTube: "",
 };
 
 const primaryColor = "#4E567E";

@@ -9,7 +9,7 @@ body {
   font-family: "Montserrat", sans-serif;
   height: 100%;
   margin: 0;
-  overflow-x: hidden;
+  overflow-x : hidden;
   padding: 0;
   width: 100%;
 }
@@ -46,15 +46,21 @@ section img.background {
 }
 
 h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Script MT Bold", serif;
+  color: #000000;
+  text-shadow: 0 0 20px #ffffff;
   font-size: 7rem;
   font-weight: 400;
   line-height: 0.8;
   margin: 0;
+  padding-top: 1rem;
 }
 
 h2 {
+  font-family: "Black ops one", sans-serif;
+  text-shadow: 0 0 20px ##f6dec4;
   font-size: 2rem;
+  color: #ffffff;
   font-weight: 400;
   margin: 0;
   padding-top: 1rem;

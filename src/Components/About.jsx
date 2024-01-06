@@ -24,19 +24,21 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Hey! I'm a 2nd-year BTech CS student at UPES Dehradun, passionate about coding, design, and development. As a budding Software Developer  and Design Enthusiast  ,I also enjoy speed cubing and fitness.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Full Stack Development",
+  "3D Graphics with Three.js",
+  "Game Development",
+  "App development",
+  "AI/ML",
+  "Competitive Programming",
+  "Graphic Designing",
+  "UI/UX Design",
 ];
 
 /**
@@ -45,7 +47,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Design, Code, Compete: Crafting web, app, game wonders! 🚀💻🎨 I have experience with multiple programming languages & frameworks namely, C, Java, Python, Javascript, Bootstrap, React, Note.js, Express & Three.js.";
 
 const About = () => {
   return (
