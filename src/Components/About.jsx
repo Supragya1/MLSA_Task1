@@ -16,9 +16,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
-
-const imageAltText = "purple and blue abstract background";
+// import image from "../images/motion-background.jpg";
+const iframeSrc = "https://skybox.blockadelabs.com/e/761d2cc85c3049b382229175f7ecbc88";
+// const imageAltText = "purple and blue abstract background";
 
 /**
  * Sort description that expands on your title on the Home component.
@@ -52,18 +52,34 @@ const detailOrQuote =
 const About = () => {
   return (
     <section className="padding" id="about">
-      <img className="background" src={image} alt={imageAltText} />
+      <iframe
+        src={iframeSrc}
+        width="1700"
+        height="1000"
+        style={{ border: "0", marginTop: "-80px" }}
+        allow="fullscreen"
+        title="About Background"
+      ></iframe>
+
       <div
         style={{
-          backgroundColor: "white",
+          position: "absolute",
+          top: "40%",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
+          // i want to make this div transparent
+          backgroundColor: "rgba(255, 255, 255, 0.7)",
+          padding: "2rem",
+          borderRadius: "8px",
+          // backgroundColor: "white",
           width: "50%",
-          padding: "4rem",
+          // padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
-        <p className="large">{description}</p>
+        <h2 style={{color:"black"}}>About Myself</h2>
+        <p className="large" style={{ fontFamily: "Roboto",color: "black", fontWeight: "bold" }}>{description}</p>
         <hr />
         <ul
           style={{
@@ -79,7 +95,7 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p style={{ padding: "1rem 3rem 0" , fontWeight:"normal" }}>{detailOrQuote}</p>
       </div>
     </section>
   );
