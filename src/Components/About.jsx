@@ -5,7 +5,6 @@
  */
 
 import React from "react";
-
 /**
  * About background image
  *
@@ -60,22 +59,46 @@ const About = () => {
         allow="fullscreen"
         title="About Background"
       ></iframe>
-
+      
       <div
         style={{
-          position: "absolute",
-          top: "40%",
+          position: "flex",
+          top: "21px",
           left: "50%",
           transform: "translate(-50%, -50%)",
-          // i want to make this div transparent
-          backgroundColor: "rgba(255, 255, 255, 0.7)",
-          padding: "2rem",
+          backgroundColor: "rgba(255, 255, 255, 0)",
+          padding: "3.72rem",
+          borderRadius: "8px",
+          // backgroundColor: "white",
+          width: "50%",
+          // padding: "4rem",
+          margin: "2.4rem auto",
+          textAlign: "center",
+        }}
+      ></div>
+      
+      <div
+        className="middle-div"
+        style={{
+          position: "absolute",
+          top: "41%",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
+          backgroundColor: "rgba(255, 255, 255, 0.5)",
+          padding: "4rem",
           borderRadius: "8px",
           // backgroundColor: "white",
           width: "50%",
           // padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
+          transition: "background-color 0.3s ease",
+        }}
+        onMouseEnter={(e) => {
+          e.target.style.backgroundColor = "rgba(255, 255, 255, 0.3)";
+        }}
+        onMouseLeave={(e) => {
+          e.target.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
         }}
       >
         <h2 style={{color:"black"}}>About Myself</h2>
@@ -97,6 +120,22 @@ const About = () => {
         <hr />
         <p style={{ padding: "1rem 3rem 0" , fontWeight:"normal" }}>{detailOrQuote}</p>
       </div>
+      <div
+        style={{
+          position: "absolute",
+          bottom: "-20px",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
+          backgroundColor: "rgba(255, 255, 255, 0)",
+          padding: "4.15rem",
+          borderRadius: "6px",
+          // backgroundColor: "white",
+          width: "49.9%",
+          // padding: "4rem",
+          margin: "2.4rem auto",
+          textAlign: "center",
+        }}
+      ></div>
     </section>
   );
 };
