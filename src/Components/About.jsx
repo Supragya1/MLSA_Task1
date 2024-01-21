@@ -37,7 +37,7 @@ const skillsList = [
   "AI/ML",
   "Competitive Programming",
   "Graphic Designing",
-  "UI/UX Design",
+  "UI/UX Designing",
 ];
 
 /**
