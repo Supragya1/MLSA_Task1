@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfolio.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -43,15 +43,15 @@ const projectList = [
     // url: "https://github.com/microsoft/web-dev-for-beginners",
   },
   {
-    title: "lorem ipsum dolor sit amet",
+    title: "Real-Time Violence Detection in Surveillance Video Streams",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Developed and implemented a machine learning model to analyze live video feeds from surveillance cameras to report instances of violence to the relevant authorities.Tech Stack – TensorFlow, OpenCV, Python, RTSP, CUDA",
     // url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "lorem ipsum dolor sit amet",
+    title: "Real-Time College Cafe Management System",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Developed an application for college cafeterias where students can place their orders and the cafes receive the order in real time.Tech  Stack – React.js , Spring Boot and PostgreSQL",
     // url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
 ];
