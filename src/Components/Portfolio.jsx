@@ -31,13 +31,13 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "Virtuon,game,Research",
+    title: "Virtuon,Research Paper",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
     // url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
   {
-    title: "Gram Jeevan Shakti",
+    title: "Gram Jeevan Shakti,Game on Unreal",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     // url: "https://github.com/microsoft/web-dev-for-beginners",
