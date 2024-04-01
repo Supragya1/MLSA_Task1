@@ -31,13 +31,13 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "Virtuon,Research Paper",
+    title: "Virtuon",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
     // url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
   {
-    title: "Gram Jeevan Shakti,Game on Unreal",
+    title: "Gram Jeevan Shakti",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     // url: "https://github.com/microsoft/web-dev-for-beginners",
@@ -54,6 +54,18 @@ const projectList = [
       "Developed an application for college cafeterias where students can place their orders and the cafes receive the order in real time.Tech  Stack – React.js , Spring Boot and PostgreSQL",
     // url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
+  {
+    title: "Research Paper",
+    description:
+      "Developed an application for college cafeterias where students can place their orders and the cafes receive the order in real time.Tech  Stack – React.js , Spring Boot and PostgreSQL",
+    // url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+  },
+  {
+    title: "Game on Unreal",
+    description:
+      "Developed an application for college cafeterias where students can place their orders and the cafes receive the order in real time.Tech  Stack – React.js , Spring Boot and PostgreSQL",
+    // url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+  }, 
 ];
 
 const Portfolio = () => {
@@ -64,7 +76,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "100%", width: "120%", objectFit: "cover" }}
             alt={imageAltText}
           />
         </div>
