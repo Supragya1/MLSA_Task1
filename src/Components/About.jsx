@@ -49,7 +49,7 @@ const detailOrQuote =
 
 const About = () => {
   return (
-    <section className="padding" id="about">
+    <section className="padding" id="about" style={{paddingBottom:"0rem"}}>
       <iframe
         src={iframeSrc}
         width="100%"
@@ -66,7 +66,7 @@ const About = () => {
           left: "50%",
           transform: "translate(-50%, -50%)",
           backgroundColor: "rgba(255, 255, 255, 0)",
-          padding: "3.72rem",
+          padding: "3.72rem",  
           borderRadius: "8px",
           // backgroundColor: "white",
           width: "50%",
@@ -82,7 +82,7 @@ const About = () => {
         onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.6)'}
         style={{
           position: "absolute",
-          top: "41%",
+          top: "44%",
           left: "50%",
           transform: "translate(-50%, -50%)",
           backgroundColor: "rgba(255, 255, 255, 0.5)",
@@ -117,11 +117,11 @@ const About = () => {
       <div
         style={{
           position: "absolute",
-          bottom: "-21px",
+          bottom: "-105px",
           left: "50%",
           transform: "translate(-50%, -50%)",
           backgroundColor: "rgba(255, 255, 255, 0)",
-          padding: "4.15rem",
+          padding: "4.3rem",
           borderRadius: "6px",
           // backgroundColor: "white",
           width: "49.9%",
